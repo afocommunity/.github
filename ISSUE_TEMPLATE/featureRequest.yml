@@ -1,13 +1,13 @@
 name: Feature Request
 description: Create a report to help us improve
-title: "[Bug]: "
-labels: ["bug"]
+title: "[Feature]: "
+labels: ["enhancement"]
 assignees: "bombitmanbomb"
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        Thanks for taking the time to fill out this rrquest!
   - type: input
     id: discord
     attributes:
