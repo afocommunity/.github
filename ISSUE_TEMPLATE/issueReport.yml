@@ -35,6 +35,19 @@ body:
         2. Click on '....'
         3. Type '.....'
         4. Unalive
+  - type: dropdown
+    id: project
+    attributes:
+      label: Related Project
+      description: What Project is this related to?
+      multiple: true
+      options:
+        - "General Discord"
+        - "General Squad Server"
+        - "AFO Hub Premium"
+        - "Squad Server Plugins"
+    validations:
+      required: true
   - type: checkboxes
     id: terms
     attributes:
